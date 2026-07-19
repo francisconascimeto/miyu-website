@@ -1,4 +1,4 @@
 # miyu-website
 A site developed by me for a special client.
-*Disclaimer*
+*Disclaimer:*
 Do not use this source code to redistribute without permission.
