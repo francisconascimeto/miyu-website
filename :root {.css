@@ -1,0 +1,94 @@
+:root {
+    --bg-color:#ff69b4;
+    --text-color:#dcd9c9;
+    --primary-color:#ff13f0;
+    --card-bg: #89CFF0;
+    --accent-color: #dcd9c9;
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.ranking-container {
+    width: 100%;
+    max-width: 600px;
+    background-color: var(--card-bg);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+h2 {
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.content-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #dcd9c9;
+    transition: background 0.2s;    
+}
+
+.content-item:hover {
+    background-color: #29292e;
+    
+}
+
+.content-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.votes {
+    font-size: 0.9rem;
+    color: #8d8d99;    
+}
+
+.vote-btn {
+    background-color: var(--primary-color);
+    color: white;
+    border:none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.1s, background-color 0.2s;
+
+}
+
+.vote-btn:hover{
+    background-color: #e04444;
+    transform: scale(1.05);
+}
