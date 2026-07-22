@@ -5,18 +5,71 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Clube Das Safadinhas</title>
         <link rel="stylesheet" href="style.css">
+        <!-- Ícones via FontAwesome(Opcional para os corações e Troféus)-->>
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">>
     </head>
     <body>
-        <header>
-            <h1>Safadinhas Rank</h1>
-            <p>Vote Na Sua Criadora De Conteúdo Preferida e Ganhe Mimos</p>
+        <!--Cabeçalho de Site-->>
+        <header class="header">
+            <div class="logo">
+                <span>CDS</span>
+                <small>Clube Das Safadinhas</small>
+                </div>
+            <nav class="nav-menu">
+                <a href="#" class="active"><i class="fa-solid fa-house"></i> Início</a>
+                <a href="#"><i class="fa-solid fa-trophy"></i>Sobre O Concurso</a>
+                <a href="#"><i class="fa-solid fa-user"></i>Participantes</a>
+                <a href="#"><i class="fa-solid fa-crown"></i>Ranking</a>
+                <a href="#"><i class="fa-solid fa-gift"></i>Premiações</a>
+            </nav>
+        <div class="Social Links">
+            <span>Redes Sociais</span>
+            <span>Nos Siga!</span>
+            <a href="#"><i class="fa-brands fa-telegram"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        </div>
         </header>
-        <main>
-            <section class="ranking-container">
-                <h2>RANKING ATUAL</h2>
-                <ul-id="Lista de Criadoras">
-            </ul>
+        <!--Conteúdo Principal do Site-->>
+        <section class="hero card">
+            <span class="sub-tag">O CONCURSO MAIS SAFADINHO DA INTERNET</span>
+            <h1 class="main-title">CLUBE DAS<br><span>SAFADINHAS</span></h1>
+            <p class="hero-desc"><VOTE NA SUA FAVORITA E CONCORRA A UM <strong>MIMO EXCLUSIVO!</strong></p>
         </section>
-    </main>
-    <script src="script.js"></script>
-    </body>
+
+        <!--Botões de Ação do Site(CTAs)-->
+        <section class="cta-group">
+            <button class="btn btn-pink">
+                <i class="fa-solid fa-heart"></i>
+                <div>
+                    <strong>VOTAR AGORA</strong>
+                    <small>Escolha Sua Favorita</small>
+                    </div>
+            </button>
+            <button class="btn btn-purple">
+                <i class="fa-solid fa-crown"></i>
+                <div>
+                    </button>
+            </section>
+            <!--Contador Regressivo-->
+            <section class="timer card">
+                <span class="timer-label"><i class="fa-regular fa-clock"></i> A VOTAÇÃO TERMINA EM:</span>
+                <div class="timer-display>
+                    <div class="timer-unit"><strong>03</strong><small>DIAS</small></div>
+                    <div class="divider">|</div>
+                    <div class="timer-unit"><strong>12</strong><small>HORAS</small></div>
+                    <div class="divider">|</div>
+                    <div class="timer-unit"><strong>45</strong><small>MINUTOS</small></div>
+                    <div class="divider">|</div>
+                    <div class="timer-unit"><strong>30</strong><small>SEGUNDOS</small></div>
+                </div>
+            </section>
+
+            <!--Galeria De Participantes-->
+            <section class="gallery-section">
+                <h3>Conheça As Participantes</h3>
+                
+
+            </body>
+</html>
